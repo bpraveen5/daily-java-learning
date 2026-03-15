@@ -10,3 +10,5 @@ Day=6 Topic=Spring Boot Note File=springboot-notes.md
 | Day 6 | 2026-03-15 | Spring Boot | ✅ Done |
 Day=7 Topic=DSA Snippet File=dsa-practice.md
 | Day 7 | 2026-03-15 | DSA | ✅ Done |
+Day=8 Topic=Interview Q&A File=interview-questions.md
+| Day 8 | 2026-03-15 | Interview Q&A | ✅ Done |
