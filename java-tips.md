@@ -19,3 +19,19 @@ System.out.println(a.equals(b));  // true  — compares values
 > 🔑 **Rule:** Use `.equals()` for content comparison. Use `==` only for primitive types.
 
 ---
+
+## Day 9 — 2026-03-15
+
+### 💡 Java Tip: String Pool & Memory
+```java
+// String literals go to String Pool (heap memory)
+String a = "hello";  // stored in pool
+String b = "hello";  // reuses same pool object
+System.out.println(a == b);       // true (same reference)
+
+// new String() always creates new object in heap
+String c = new String("hello");
+System.out.println(a == c);       // false
+System.out.println(a.equals(c));  // true (same value)
+```
+> 🔑 **Key Rule:** Always use  to compare String values, never 
