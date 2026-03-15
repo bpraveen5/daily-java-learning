@@ -29,3 +29,24 @@ public int[] twoSum(int[] nums, int target) {
 > ⏱️ **Time:** O(n) | **Space:** O(n) — Classic HashMap approach!
 
 ---
+
+## Day 7 — 2026-03-15
+
+### 🧮 DSA: Binary Search (O log n)
+```java
+public class BinarySearch {
+    public static int search(int[] arr, int target) {
+        int left = 0, right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2; // avoids overflow
+
+            if (arr[mid] == target) return mid;
+            if (arr[mid] < target) left = mid + 1;
+            else right = mid - 1;
+        }
+        return -1; // not found
+    }
+}
+```
+> ⏱️ **Time:** O(log n) | **Space:** O(1) — Must know for interviews!
