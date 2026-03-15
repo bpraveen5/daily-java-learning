@@ -1,0 +1,176 @@
+name: 🚀 Daily Java Learning Auto Commit
+
+on:
+  schedule:
+    - cron: '30 3 * * *'   # 9:00 AM IST (UTC+5:30 = 3:30 AM UTC)
+  workflow_dispatch:         # Manual trigger from GitHub UI
+
+jobs:
+  daily-learning-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: ✅ Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 📅 Calculate Day Number
+        id: day
+        run: |
+          # Count lines in tracker to get current day
+          if [ -f "progress-tracker.md" ]; then
+            DAY=$(grep -c "^| Day" progress-tracker.md 2>/dev/null || echo 0)
+            DAY=$((DAY + 1))
+          else
+            DAY=1
+          fi
+          echo "day_number=$DAY" >> $GITHUB_OUTPUT
+          echo "Today is Day $DAY"
+
+      - name: 📝 Append Daily Content
+        run: |
+          DAY=${{ steps.day.outputs.day_number }}
+          DATE=$(date '+%Y-%m-%d')
+          CYCLE=$(( (DAY - 1) % 4 ))   # 0=Java, 1=SpringBoot, 2=DSA, 3=Interview
+
+          if [ "$CYCLE" -eq 0 ]; then
+            TOPIC="Java Core Tip"
+            FILE="java-tips.md"
+            cat >> java-tips.md << 'CONTENT'
+
+          CONTENT
+            echo "## Day $DAY — $DATE" >> java-tips.md
+            echo "" >> java-tips.md
+            echo "### 💡 Java Tip: String Pool & Memory" >> java-tips.md
+            echo '```java' >> java-tips.md
+            echo '// String literals go to String Pool (heap memory)' >> java-tips.md
+            echo 'String a = "hello";  // stored in pool' >> java-tips.md
+            echo 'String b = "hello";  // reuses same pool object' >> java-tips.md
+            echo 'System.out.println(a == b);       // true (same reference)' >> java-tips.md
+            echo '' >> java-tips.md
+            echo '// new String() always creates new object in heap' >> java-tips.md
+            echo 'String c = new String("hello");' >> java-tips.md
+            echo 'System.out.println(a == c);       // false' >> java-tips.md
+            echo 'System.out.println(a.equals(c));  // true (same value)' >> java-tips.md
+            echo '```' >> java-tips.md
+            echo "> 🔑 **Key Rule:** Always use `.equals()` to compare String values, never `==`" >> java-tips.md
+
+          elif [ "$CYCLE" -eq 1 ]; then
+            TOPIC="Spring Boot Note"
+            FILE="springboot-notes.md"
+            cat >> springboot-notes.md << 'CONTENT'
+
+          CONTENT
+            echo "## Day $DAY — $DATE" >> springboot-notes.md
+            echo "" >> springboot-notes.md
+            echo "### 🍃 Spring Boot: @RestController vs @Controller" >> springboot-notes.md
+            echo '```java' >> springboot-notes.md
+            echo '// @Controller — returns VIEW name (for HTML pages)' >> springboot-notes.md
+            echo '@Controller' >> springboot-notes.md
+            echo 'public class PageController {' >> springboot-notes.md
+            echo '    @GetMapping("/home")' >> springboot-notes.md
+            echo '    public String home() {' >> springboot-notes.md
+            echo '        return "home";  // looks for home.html template' >> springboot-notes.md
+            echo '    }' >> springboot-notes.md
+            echo '}' >> springboot-notes.md
+            echo '' >> springboot-notes.md
+            echo '// @RestController = @Controller + @ResponseBody' >> springboot-notes.md
+            echo '// Returns JSON/XML directly (for APIs)' >> springboot-notes.md
+            echo '@RestController' >> springboot-notes.md
+            echo '@RequestMapping("/api")' >> springboot-notes.md
+            echo 'public class ApiController {' >> springboot-notes.md
+            echo '    @GetMapping("/users")' >> springboot-notes.md
+            echo '    public List<User> getUsers() {' >> springboot-notes.md
+            echo '        return userService.findAll();  // returns JSON' >> springboot-notes.md
+            echo '    }' >> springboot-notes.md
+            echo '}' >> springboot-notes.md
+            echo '```' >> springboot-notes.md
+            echo "> 🔑 **Rule:** Use `@RestController` for REST APIs. Use `@Controller` for MVC web pages." >> springboot-notes.md
+
+          elif [ "$CYCLE" -eq 2 ]; then
+            TOPIC="DSA Snippet"
+            FILE="dsa-practice.md"
+            cat >> dsa-practice.md << 'CONTENT'
+
+          CONTENT
+            echo "## Day $DAY — $DATE" >> dsa-practice.md
+            echo "" >> dsa-practice.md
+            echo "### 🧮 DSA: Binary Search (O log n)" >> dsa-practice.md
+            echo '```java' >> dsa-practice.md
+            echo 'public class BinarySearch {' >> dsa-practice.md
+            echo '    public static int search(int[] arr, int target) {' >> dsa-practice.md
+            echo '        int left = 0, right = arr.length - 1;' >> dsa-practice.md
+            echo '' >> dsa-practice.md
+            echo '        while (left <= right) {' >> dsa-practice.md
+            echo '            int mid = left + (right - left) / 2; // avoids overflow' >> dsa-practice.md
+            echo '' >> dsa-practice.md
+            echo '            if (arr[mid] == target) return mid;' >> dsa-practice.md
+            echo '            if (arr[mid] < target) left = mid + 1;' >> dsa-practice.md
+            echo '            else right = mid - 1;' >> dsa-practice.md
+            echo '        }' >> dsa-practice.md
+            echo '        return -1; // not found' >> dsa-practice.md
+            echo '    }' >> dsa-practice.md
+            echo '}' >> dsa-practice.md
+            echo '```' >> dsa-practice.md
+            echo "> ⏱️ **Time:** O(log n) | **Space:** O(1) — Must know for interviews!" >> dsa-practice.md
+
+          else
+            TOPIC="Interview Q&A"
+            FILE="interview-questions.md"
+            cat >> interview-questions.md << 'CONTENT'
+
+          CONTENT
+            echo "## Day $DAY — $DATE" >> interview-questions.md
+            echo "" >> interview-questions.md
+            echo "### 🎯 Interview Q: What is the difference between HashMap and Hashtable?" >> interview-questions.md
+            echo "" >> interview-questions.md
+            echo "**Answer:**" >> interview-questions.md
+            echo "" >> interview-questions.md
+            echo "| Feature | HashMap | Hashtable |" >> interview-questions.md
+            echo "|---|---|---|" >> interview-questions.md
+            echo "| Thread Safe | ❌ No | ✅ Yes (synchronized) |" >> interview-questions.md
+            echo "| Null Keys | ✅ 1 null key allowed | ❌ Not allowed |" >> interview-questions.md
+            echo "| Performance | ✅ Faster | ❌ Slower |" >> interview-questions.md
+            echo "| Preferred | ✅ Modern code | ❌ Legacy |" >> interview-questions.md
+            echo "" >> interview-questions.md
+            echo '```java' >> interview-questions.md
+            echo '// Prefer HashMap in single-threaded apps' >> interview-questions.md
+            echo 'Map<String, Integer> map = new HashMap<>();' >> interview-questions.md
+            echo 'map.put(null, 1);  // works fine' >> interview-questions.md
+            echo '' >> interview-questions.md
+            echo '// Use ConcurrentHashMap for thread-safe modern code' >> interview-questions.md
+            echo 'Map<String, Integer> safe = new ConcurrentHashMap<>();' >> interview-questions.md
+            echo '```' >> interview-questions.md
+            echo "> 💼 **Tip:** If asked about thread safety, mention `ConcurrentHashMap` as the modern alternative." >> interview-questions.md
+          fi
+
+          echo "Day=$DAY Topic=$TOPIC File=$FILE" >> progress-tracker.md
+
+      - name: 📊 Update Progress Tracker
+        run: |
+          DAY=${{ steps.day.outputs.day_number }}
+          DATE=$(date '+%Y-%m-%d')
+          CYCLE=$(( (DAY - 1) % 4 ))
+          TOPICS=("Java Core" "Spring Boot" "DSA" "Interview Q&A")
+          TOPIC=${TOPICS[$CYCLE]}
+
+          # Initialize tracker if not exists
+          if [ ! -f "progress-tracker.md" ] || [ ! -s "progress-tracker.md" ]; then
+            echo "# 📊 Daily Learning Progress Tracker" > progress-tracker.md
+            echo "" >> progress-tracker.md
+            echo "| Day | Date | Topic | Status |" >> progress-tracker.md
+            echo "|-----|------|-------|--------|" >> progress-tracker.md
+          fi
+
+          echo "| Day $DAY | $DATE | $TOPIC | ✅ Done |" >> progress-tracker.md
+
+      - name: 🚀 Commit and Push
+        run: |
+          git config --global user.name "bpraveen5"
+          git config --global user.email "bpraveen90145@gmail.com"
+          git add .
+          git commit -m "📚 Day ${{ steps.day.outputs.day_number }}: Daily learning update - $(date '+%Y-%m-%d')"
+          git push
