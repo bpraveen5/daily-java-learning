@@ -20,3 +20,5 @@ Day=11 Topic=DSA Snippet File=dsa-practice.md
 | Day 11 | 2026-03-17 | DSA | ✅ Done |
 Day=12 Topic=Interview Q&A File=interview-questions.md
 | Day 12 | 2026-03-18 | Interview Q&A | ✅ Done |
+Day=13 Topic=Java Core Tip File=java-tips.md
+| Day 13 | 2026-03-19 | Java Core | ✅ Done |
