@@ -34,3 +34,5 @@ Day=18 Topic=Spring Boot Note File=springboot-notes.md
 | Day 18 | 2026-03-24 | Spring Boot | ✅ Done |
 Day=19 Topic=DSA Snippet File=dsa-practice.md
 | Day 19 | 2026-03-25 | DSA | ✅ Done |
+Day=20 Topic=Interview Q&A File=interview-questions.md
+| Day 20 | 2026-03-26 | Interview Q&A | ✅ Done |
