@@ -36,3 +36,5 @@ Day=19 Topic=DSA Snippet File=dsa-practice.md
 | Day 19 | 2026-03-25 | DSA | ✅ Done |
 Day=20 Topic=Interview Q&A File=interview-questions.md
 | Day 20 | 2026-03-26 | Interview Q&A | ✅ Done |
+Day=21 Topic=Java Core Tip File=java-tips.md
+| Day 21 | 2026-03-27 | Java Core | ✅ Done |
