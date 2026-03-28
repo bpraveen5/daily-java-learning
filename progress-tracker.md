@@ -38,3 +38,5 @@ Day=20 Topic=Interview Q&A File=interview-questions.md
 | Day 20 | 2026-03-26 | Interview Q&A | ✅ Done |
 Day=21 Topic=Java Core Tip File=java-tips.md
 | Day 21 | 2026-03-27 | Java Core | ✅ Done |
+Day=22 Topic=Spring Boot Note File=springboot-notes.md
+| Day 22 | 2026-03-28 | Spring Boot | ✅ Done |
