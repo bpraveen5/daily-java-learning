@@ -42,3 +42,5 @@ Day=22 Topic=Spring Boot Note File=springboot-notes.md
 | Day 22 | 2026-03-28 | Spring Boot | ✅ Done |
 Day=23 Topic=DSA Snippet File=dsa-practice.md
 | Day 23 | 2026-03-29 | DSA | ✅ Done |
+Day=24 Topic=Interview Q&A File=interview-questions.md
+| Day 24 | 2026-03-30 | Interview Q&A | ✅ Done |
