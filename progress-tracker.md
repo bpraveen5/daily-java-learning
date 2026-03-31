@@ -44,3 +44,5 @@ Day=23 Topic=DSA Snippet File=dsa-practice.md
 | Day 23 | 2026-03-29 | DSA | ✅ Done |
 Day=24 Topic=Interview Q&A File=interview-questions.md
 | Day 24 | 2026-03-30 | Interview Q&A | ✅ Done |
+Day=25 Topic=Java Core Tip File=java-tips.md
+| Day 25 | 2026-03-31 | Java Core | ✅ Done |
