@@ -141,3 +141,26 @@ map.put(null, 1);  // works fine
 Map<String, Integer> safe = new ConcurrentHashMap<>();
 ```
 > 💼 **Tip:** If asked about thread safety, mention  as the modern alternative.
+
+## Day 28 — 2026-04-03
+
+### 🎯 Interview Q: What is the difference between HashMap and Hashtable?
+
+**Answer:**
+
+| Feature | HashMap | Hashtable |
+|---|---|---|
+| Thread Safe | ❌ No | ✅ Yes (synchronized) |
+| Null Keys | ✅ 1 null key allowed | ❌ Not allowed |
+| Performance | ✅ Faster | ❌ Slower |
+| Preferred | ✅ Modern code | ❌ Legacy |
+
+```java
+// Prefer HashMap in single-threaded apps
+Map<String, Integer> map = new HashMap<>();
+map.put(null, 1);  // works fine
+
+// Use ConcurrentHashMap for thread-safe modern code
+Map<String, Integer> safe = new ConcurrentHashMap<>();
+```
+> 💼 **Tip:** If asked about thread safety, mention  as the modern alternative.

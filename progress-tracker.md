@@ -50,3 +50,5 @@ Day=26 Topic=Spring Boot Note File=springboot-notes.md
 | Day 26 | 2026-04-01 | Spring Boot | ✅ Done |
 Day=27 Topic=DSA Snippet File=dsa-practice.md
 | Day 27 | 2026-04-02 | DSA | ✅ Done |
+Day=28 Topic=Interview Q&A File=interview-questions.md
+| Day 28 | 2026-04-03 | Interview Q&A | ✅ Done |
