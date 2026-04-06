@@ -56,3 +56,5 @@ Day=29 Topic=Java Core Tip File=java-tips.md
 | Day 29 | 2026-04-04 | Java Core | ✅ Done |
 Day=30 Topic=Spring Boot Note File=springboot-notes.md
 | Day 30 | 2026-04-05 | Spring Boot | ✅ Done |
+Day=31 Topic=DSA Snippet File=dsa-practice.md
+| Day 31 | 2026-04-06 | DSA | ✅ Done |
