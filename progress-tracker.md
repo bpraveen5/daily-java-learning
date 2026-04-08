@@ -60,3 +60,5 @@ Day=31 Topic=DSA Snippet File=dsa-practice.md
 | Day 31 | 2026-04-06 | DSA | ✅ Done |
 Day=32 Topic=Interview Q&A File=interview-questions.md
 | Day 32 | 2026-04-07 | Interview Q&A | ✅ Done |
+Day=33 Topic=Java Core Tip File=java-tips.md
+| Day 33 | 2026-04-08 | Java Core | ✅ Done |
