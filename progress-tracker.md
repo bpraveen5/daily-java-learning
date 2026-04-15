@@ -74,3 +74,5 @@ Day=38 Topic=Spring Boot Note File=springboot-notes.md
 | Day 38 | 2026-04-13 | Spring Boot | ✅ Done |
 Day=39 Topic=DSA Snippet File=dsa-practice.md
 | Day 39 | 2026-04-14 | DSA | ✅ Done |
+Day=40 Topic=Interview Q&A File=interview-questions.md
+| Day 40 | 2026-04-15 | Interview Q&A | ✅ Done |
