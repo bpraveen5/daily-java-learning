@@ -218,3 +218,24 @@ public class BinarySearch {
 }
 ```
 > ⏱️ **Time:** O(log n) | **Space:** O(1) — Must know for interviews!
+
+## Day 43 — 2026-04-18
+
+### 🧮 DSA: Binary Search (O log n)
+```java
+public class BinarySearch {
+    public static int search(int[] arr, int target) {
+        int left = 0, right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2; // avoids overflow
+
+            if (arr[mid] == target) return mid;
+            if (arr[mid] < target) left = mid + 1;
+            else right = mid - 1;
+        }
+        return -1; // not found
+    }
+}
+```
+> ⏱️ **Time:** O(log n) | **Space:** O(1) — Must know for interviews!
