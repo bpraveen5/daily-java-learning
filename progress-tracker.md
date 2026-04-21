@@ -86,3 +86,5 @@ Day=44 Topic=Interview Q&A File=interview-questions.md
 | Day 44 | 2026-04-19 | Interview Q&A | ✅ Done |
 Day=45 Topic=Java Core Tip File=java-tips.md
 | Day 45 | 2026-04-20 | Java Core | ✅ Done |
+Day=46 Topic=Spring Boot Note File=springboot-notes.md
+| Day 46 | 2026-04-21 | Spring Boot | ✅ Done |
