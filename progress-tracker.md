@@ -90,3 +90,5 @@ Day=46 Topic=Spring Boot Note File=springboot-notes.md
 | Day 46 | 2026-04-21 | Spring Boot | ✅ Done |
 Day=47 Topic=DSA Snippet File=dsa-practice.md
 | Day 47 | 2026-04-22 | DSA | ✅ Done |
+Day=48 Topic=Interview Q&A File=interview-questions.md
+| Day 48 | 2026-04-23 | Interview Q&A | ✅ Done |
