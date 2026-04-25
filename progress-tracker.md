@@ -94,3 +94,5 @@ Day=48 Topic=Interview Q&A File=interview-questions.md
 | Day 48 | 2026-04-23 | Interview Q&A | ✅ Done |
 Day=49 Topic=Java Core Tip File=java-tips.md
 | Day 49 | 2026-04-24 | Java Core | ✅ Done |
+Day=50 Topic=Spring Boot Note File=springboot-notes.md
+| Day 50 | 2026-04-25 | Spring Boot | ✅ Done |
