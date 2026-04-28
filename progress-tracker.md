@@ -100,3 +100,5 @@ Day=51 Topic=DSA Snippet File=dsa-practice.md
 | Day 51 | 2026-04-26 | DSA | ✅ Done |
 Day=52 Topic=Interview Q&A File=interview-questions.md
 | Day 52 | 2026-04-27 | Interview Q&A | ✅ Done |
+Day=53 Topic=Java Core Tip File=java-tips.md
+| Day 53 | 2026-04-28 | Java Core | ✅ Done |
