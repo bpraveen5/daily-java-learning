@@ -102,3 +102,5 @@ Day=52 Topic=Interview Q&A File=interview-questions.md
 | Day 52 | 2026-04-27 | Interview Q&A | ✅ Done |
 Day=53 Topic=Java Core Tip File=java-tips.md
 | Day 53 | 2026-04-28 | Java Core | ✅ Done |
+Day=54 Topic=Spring Boot Note File=springboot-notes.md
+| Day 54 | 2026-04-29 | Spring Boot | ✅ Done |
