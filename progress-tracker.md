@@ -118,3 +118,5 @@ Day=60 Topic=Interview Q&A File=interview-questions.md
 | Day 60 | 2026-05-05 | Interview Q&A | ✅ Done |
 Day=61 Topic=Java Core Tip File=java-tips.md
 | Day 61 | 2026-05-06 | Java Core | ✅ Done |
+Day=62 Topic=Spring Boot Note File=springboot-notes.md
+| Day 62 | 2026-05-07 | Spring Boot | ✅ Done |
