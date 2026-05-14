@@ -132,3 +132,5 @@ Day=67 Topic=DSA Snippet File=dsa-practice.md
 | Day 67 | 2026-05-12 | DSA | ✅ Done |
 Day=68 Topic=Interview Q&A File=interview-questions.md
 | Day 68 | 2026-05-13 | Interview Q&A | ✅ Done |
+Day=69 Topic=Java Core Tip File=java-tips.md
+| Day 69 | 2026-05-14 | Java Core | ✅ Done |
