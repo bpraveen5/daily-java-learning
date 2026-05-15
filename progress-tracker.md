@@ -134,3 +134,5 @@ Day=68 Topic=Interview Q&A File=interview-questions.md
 | Day 68 | 2026-05-13 | Interview Q&A | ✅ Done |
 Day=69 Topic=Java Core Tip File=java-tips.md
 | Day 69 | 2026-05-14 | Java Core | ✅ Done |
+Day=70 Topic=Spring Boot Note File=springboot-notes.md
+| Day 70 | 2026-05-15 | Spring Boot | ✅ Done |
