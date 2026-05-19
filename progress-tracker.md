@@ -142,3 +142,5 @@ Day=72 Topic=Interview Q&A File=interview-questions.md
 | Day 72 | 2026-05-17 | Interview Q&A | ✅ Done |
 Day=73 Topic=Java Core Tip File=java-tips.md
 | Day 73 | 2026-05-18 | Java Core | ✅ Done |
+Day=74 Topic=Spring Boot Note File=springboot-notes.md
+| Day 74 | 2026-05-19 | Spring Boot | ✅ Done |
