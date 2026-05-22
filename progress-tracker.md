@@ -148,3 +148,5 @@ Day=75 Topic=DSA Snippet File=dsa-practice.md
 | Day 75 | 2026-05-20 | DSA | ✅ Done |
 Day=76 Topic=Interview Q&A File=interview-questions.md
 | Day 76 | 2026-05-21 | Interview Q&A | ✅ Done |
+Day=77 Topic=Java Core Tip File=java-tips.md
+| Day 77 | 2026-05-22 | Java Core | ✅ Done |
