@@ -160,3 +160,5 @@ Day=81 Topic=Java Core Tip File=java-tips.md
 | Day 81 | 2026-05-26 | Java Core | ✅ Done |
 Day=82 Topic=Spring Boot Note File=springboot-notes.md
 | Day 82 | 2026-05-27 | Spring Boot | ✅ Done |
+Day=83 Topic=DSA Snippet File=dsa-practice.md
+| Day 83 | 2026-05-28 | DSA | ✅ Done |
