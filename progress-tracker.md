@@ -162,3 +162,5 @@ Day=82 Topic=Spring Boot Note File=springboot-notes.md
 | Day 82 | 2026-05-27 | Spring Boot | ✅ Done |
 Day=83 Topic=DSA Snippet File=dsa-practice.md
 | Day 83 | 2026-05-28 | DSA | ✅ Done |
+Day=84 Topic=Interview Q&A File=interview-questions.md
+| Day 84 | 2026-05-29 | Interview Q&A | ✅ Done |
