@@ -164,3 +164,5 @@ Day=83 Topic=DSA Snippet File=dsa-practice.md
 | Day 83 | 2026-05-28 | DSA | ✅ Done |
 Day=84 Topic=Interview Q&A File=interview-questions.md
 | Day 84 | 2026-05-29 | Interview Q&A | ✅ Done |
+Day=85 Topic=Java Core Tip File=java-tips.md
+| Day 85 | 2026-05-30 | Java Core | ✅ Done |
