@@ -166,3 +166,5 @@ Day=84 Topic=Interview Q&A File=interview-questions.md
 | Day 84 | 2026-05-29 | Interview Q&A | ✅ Done |
 Day=85 Topic=Java Core Tip File=java-tips.md
 | Day 85 | 2026-05-30 | Java Core | ✅ Done |
+Day=86 Topic=Spring Boot Note File=springboot-notes.md
+| Day 86 | 2026-05-31 | Spring Boot | ✅ Done |
