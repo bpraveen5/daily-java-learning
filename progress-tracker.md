@@ -172,3 +172,5 @@ Day=87 Topic=DSA Snippet File=dsa-practice.md
 | Day 87 | 2026-06-01 | DSA | ✅ Done |
 Day=88 Topic=Interview Q&A File=interview-questions.md
 | Day 88 | 2026-06-02 | Interview Q&A | ✅ Done |
+Day=89 Topic=Java Core Tip File=java-tips.md
+| Day 89 | 2026-06-03 | Java Core | ✅ Done |
