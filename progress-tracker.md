@@ -178,3 +178,5 @@ Day=90 Topic=Spring Boot Note File=springboot-notes.md
 | Day 90 | 2026-06-04 | Spring Boot | ✅ Done |
 Day=91 Topic=DSA Snippet File=dsa-practice.md
 | Day 91 | 2026-06-05 | DSA | ✅ Done |
+Day=92 Topic=Interview Q&A File=interview-questions.md
+| Day 92 | 2026-06-06 | Interview Q&A | ✅ Done |
