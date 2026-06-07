@@ -180,3 +180,5 @@ Day=91 Topic=DSA Snippet File=dsa-practice.md
 | Day 91 | 2026-06-05 | DSA | ✅ Done |
 Day=92 Topic=Interview Q&A File=interview-questions.md
 | Day 92 | 2026-06-06 | Interview Q&A | ✅ Done |
+Day=93 Topic=Java Core Tip File=java-tips.md
+| Day 93 | 2026-06-07 | Java Core | ✅ Done |
