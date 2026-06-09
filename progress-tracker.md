@@ -184,3 +184,5 @@ Day=93 Topic=Java Core Tip File=java-tips.md
 | Day 93 | 2026-06-07 | Java Core | ✅ Done |
 Day=94 Topic=Spring Boot Note File=springboot-notes.md
 | Day 94 | 2026-06-08 | Spring Boot | ✅ Done |
+Day=95 Topic=DSA Snippet File=dsa-practice.md
+| Day 95 | 2026-06-09 | DSA | ✅ Done |
