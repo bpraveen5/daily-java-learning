@@ -190,3 +190,5 @@ Day=96 Topic=Interview Q&A File=interview-questions.md
 | Day 96 | 2026-06-10 | Interview Q&A | ✅ Done |
 Day=97 Topic=Java Core Tip File=java-tips.md
 | Day 97 | 2026-06-11 | Java Core | ✅ Done |
+Day=98 Topic=Spring Boot Note File=springboot-notes.md
+| Day 98 | 2026-06-12 | Spring Boot | ✅ Done |
