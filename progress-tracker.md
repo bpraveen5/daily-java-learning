@@ -194,3 +194,5 @@ Day=98 Topic=Spring Boot Note File=springboot-notes.md
 | Day 98 | 2026-06-12 | Spring Boot | ✅ Done |
 Day=99 Topic=DSA Snippet File=dsa-practice.md
 | Day 99 | 2026-06-13 | DSA | ✅ Done |
+Day=100 Topic=Interview Q&A File=interview-questions.md
+| Day 100 | 2026-06-14 | Interview Q&A | ✅ Done |
