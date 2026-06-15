@@ -196,3 +196,5 @@ Day=99 Topic=DSA Snippet File=dsa-practice.md
 | Day 99 | 2026-06-13 | DSA | ✅ Done |
 Day=100 Topic=Interview Q&A File=interview-questions.md
 | Day 100 | 2026-06-14 | Interview Q&A | ✅ Done |
+Day=101 Topic=Java Core Tip File=java-tips.md
+| Day 101 | 2026-06-15 | Java Core | ✅ Done |
