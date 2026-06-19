@@ -204,3 +204,5 @@ Day=103 Topic=DSA Snippet File=dsa-practice.md
 | Day 103 | 2026-06-17 | DSA | ✅ Done |
 Day=104 Topic=Interview Q&A File=interview-questions.md
 | Day 104 | 2026-06-18 | Interview Q&A | ✅ Done |
+Day=105 Topic=Java Core Tip File=java-tips.md
+| Day 105 | 2026-06-19 | Java Core | ✅ Done |
