@@ -210,3 +210,5 @@ Day=106 Topic=Spring Boot Note File=springboot-notes.md
 | Day 106 | 2026-06-20 | Spring Boot | ✅ Done |
 Day=107 Topic=DSA Snippet File=dsa-practice.md
 | Day 107 | 2026-06-21 | DSA | ✅ Done |
+Day=108 Topic=Interview Q&A File=interview-questions.md
+| Day 108 | 2026-06-22 | Interview Q&A | ✅ Done |
