@@ -212,3 +212,5 @@ Day=107 Topic=DSA Snippet File=dsa-practice.md
 | Day 107 | 2026-06-21 | DSA | ✅ Done |
 Day=108 Topic=Interview Q&A File=interview-questions.md
 | Day 108 | 2026-06-22 | Interview Q&A | ✅ Done |
+Day=109 Topic=Java Core Tip File=java-tips.md
+| Day 109 | 2026-06-23 | Java Core | ✅ Done |
