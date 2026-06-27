@@ -220,3 +220,5 @@ Day=111 Topic=DSA Snippet File=dsa-practice.md
 | Day 111 | 2026-06-25 | DSA | ✅ Done |
 Day=112 Topic=Interview Q&A File=interview-questions.md
 | Day 112 | 2026-06-26 | Interview Q&A | ✅ Done |
+Day=113 Topic=Java Core Tip File=java-tips.md
+| Day 113 | 2026-06-27 | Java Core | ✅ Done |
