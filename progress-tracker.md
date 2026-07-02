@@ -230,3 +230,5 @@ Day=116 Topic=Interview Q&A File=interview-questions.md
 | Day 116 | 2026-06-30 | Interview Q&A | ✅ Done |
 Day=117 Topic=Java Core Tip File=java-tips.md
 | Day 117 | 2026-07-01 | Java Core | ✅ Done |
+Day=118 Topic=Spring Boot Note File=springboot-notes.md
+| Day 118 | 2026-07-02 | Spring Boot | ✅ Done |
