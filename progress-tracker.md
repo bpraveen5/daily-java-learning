@@ -240,3 +240,5 @@ Day=121 Topic=Java Core Tip File=java-tips.md
 | Day 121 | 2026-07-05 | Java Core | ✅ Done |
 Day=122 Topic=Spring Boot Note File=springboot-notes.md
 | Day 122 | 2026-07-06 | Spring Boot | ✅ Done |
+Day=123 Topic=DSA Snippet File=dsa-practice.md
+| Day 123 | 2026-07-07 | DSA | ✅ Done |
