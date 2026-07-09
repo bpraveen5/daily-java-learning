@@ -244,3 +244,5 @@ Day=123 Topic=DSA Snippet File=dsa-practice.md
 | Day 123 | 2026-07-07 | DSA | ✅ Done |
 Day=124 Topic=Interview Q&A File=interview-questions.md
 | Day 124 | 2026-07-08 | Interview Q&A | ✅ Done |
+Day=125 Topic=Java Core Tip File=java-tips.md
+| Day 125 | 2026-07-09 | Java Core | ✅ Done |
