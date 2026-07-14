@@ -252,3 +252,5 @@ Day=127 Topic=DSA Snippet File=dsa-practice.md
 | Day 127 | 2026-07-11 | DSA | ✅ Done |
 Day=128 Topic=Interview Q&A File=interview-questions.md
 | Day 128 | 2026-07-13 | Interview Q&A | ✅ Done |
+Day=129 Topic=Java Core Tip File=java-tips.md
+| Day 129 | 2026-07-14 | Java Core | ✅ Done |
