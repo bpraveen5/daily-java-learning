@@ -258,3 +258,5 @@ Day=130 Topic=Spring Boot Note File=springboot-notes.md
 | Day 130 | 2026-07-15 | Spring Boot | ✅ Done |
 Day=131 Topic=DSA Snippet File=dsa-practice.md
 | Day 131 | 2026-07-16 | DSA | ✅ Done |
+Day=132 Topic=Interview Q&A File=interview-questions.md
+| Day 132 | 2026-07-17 | Interview Q&A | ✅ Done |
