@@ -260,3 +260,5 @@ Day=131 Topic=DSA Snippet File=dsa-practice.md
 | Day 131 | 2026-07-16 | DSA | ✅ Done |
 Day=132 Topic=Interview Q&A File=interview-questions.md
 | Day 132 | 2026-07-17 | Interview Q&A | ✅ Done |
+Day=133 Topic=Java Core Tip File=java-tips.md
+| Day 133 | 2026-07-18 | Java Core | ✅ Done |
