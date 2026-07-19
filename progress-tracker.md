@@ -262,3 +262,5 @@ Day=132 Topic=Interview Q&A File=interview-questions.md
 | Day 132 | 2026-07-17 | Interview Q&A | ✅ Done |
 Day=133 Topic=Java Core Tip File=java-tips.md
 | Day 133 | 2026-07-18 | Java Core | ✅ Done |
+Day=134 Topic=Spring Boot Note File=springboot-notes.md
+| Day 134 | 2026-07-19 | Spring Boot | ✅ Done |
