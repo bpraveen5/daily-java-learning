@@ -276,3 +276,5 @@ Day=139 Topic=DSA Snippet File=dsa-practice.md
 | Day 139 | 2026-07-24 | DSA | ✅ Done |
 Day=140 Topic=Interview Q&A File=interview-questions.md
 | Day 140 | 2026-07-25 | Interview Q&A | ✅ Done |
+Day=141 Topic=Java Core Tip File=java-tips.md
+| Day 141 | 2026-07-26 | Java Core | ✅ Done |
