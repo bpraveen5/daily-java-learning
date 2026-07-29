@@ -282,3 +282,5 @@ Day=142 Topic=Spring Boot Note File=springboot-notes.md
 | Day 142 | 2026-07-27 | Spring Boot | ✅ Done |
 Day=143 Topic=DSA Snippet File=dsa-practice.md
 | Day 143 | 2026-07-28 | DSA | ✅ Done |
+Day=144 Topic=Interview Q&A File=interview-questions.md
+| Day 144 | 2026-07-29 | Interview Q&A | ✅ Done |
