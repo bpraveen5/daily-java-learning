@@ -284,3 +284,5 @@ Day=143 Topic=DSA Snippet File=dsa-practice.md
 | Day 143 | 2026-07-28 | DSA | ✅ Done |
 Day=144 Topic=Interview Q&A File=interview-questions.md
 | Day 144 | 2026-07-29 | Interview Q&A | ✅ Done |
+Day=145 Topic=Java Core Tip File=java-tips.md
+| Day 145 | 2026-07-30 | Java Core | ✅ Done |
