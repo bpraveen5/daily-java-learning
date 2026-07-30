@@ -30,7 +30,7 @@ The content rotates every 4 days across these topics:
 | Day 4, 8, 12... | 🎯 Interview Q&A | `interview-questions.md` |
 
 ---
-
+<!---
 ## 📁 Repository Structure
 
 ```
@@ -47,8 +47,8 @@ daily-java-learning/
 ```
 
 ---
-
-## ⚙️ How the Automation Works
+--!>
+<!-- ## ⚙️ How the Automation Works
 
 ```
 GitHub Actions (Cron: 9:00 AM IST daily)
@@ -66,6 +66,7 @@ Updates progress-tracker.md
 Commits with message: "📚 Day N: Daily learning update - YYYY-MM-DD"
         │
         ▼
+
 ✅ GitHub contribution recorded!
 ```
 
@@ -73,6 +74,8 @@ Commits with message: "📚 Day N: Daily learning update - YYYY-MM-DD"
 Just GitHub Actions — free, always on, zero maintenance.
 
 ---
+---!>
+
 
 ## 🛠️ Topics Covered
 
