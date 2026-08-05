@@ -296,3 +296,5 @@ Day=149 Topic=Java Core Tip File=java-tips.md
 | Day 149 | 2026-08-03 | Java Core | ✅ Done |
 Day=150 Topic=Spring Boot Note File=springboot-notes.md
 | Day 150 | 2026-08-04 | Spring Boot | ✅ Done |
+Day=151 Topic=DSA Snippet File=dsa-practice.md
+| Day 151 | 2026-08-05 | DSA | ✅ Done |
