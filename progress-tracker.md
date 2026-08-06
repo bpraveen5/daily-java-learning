@@ -298,3 +298,5 @@ Day=150 Topic=Spring Boot Note File=springboot-notes.md
 | Day 150 | 2026-08-04 | Spring Boot | ✅ Done |
 Day=151 Topic=DSA Snippet File=dsa-practice.md
 | Day 151 | 2026-08-05 | DSA | ✅ Done |
+Day=152 Topic=Interview Q&A File=interview-questions.md
+| Day 152 | 2026-08-06 | Interview Q&A | ✅ Done |
