@@ -300,3 +300,5 @@ Day=151 Topic=DSA Snippet File=dsa-practice.md
 | Day 151 | 2026-08-05 | DSA | ✅ Done |
 Day=152 Topic=Interview Q&A File=interview-questions.md
 | Day 152 | 2026-08-06 | Interview Q&A | ✅ Done |
+Day=153 Topic=Java Core Tip File=java-tips.md
+| Day 153 | 2026-08-07 | Java Core | ✅ Done |
