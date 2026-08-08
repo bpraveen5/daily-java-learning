@@ -302,3 +302,5 @@ Day=152 Topic=Interview Q&A File=interview-questions.md
 | Day 152 | 2026-08-06 | Interview Q&A | ✅ Done |
 Day=153 Topic=Java Core Tip File=java-tips.md
 | Day 153 | 2026-08-07 | Java Core | ✅ Done |
+Day=154 Topic=Spring Boot Note File=springboot-notes.md
+| Day 154 | 2026-08-08 | Spring Boot | ✅ Done |
