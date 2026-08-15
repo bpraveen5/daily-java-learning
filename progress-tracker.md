@@ -316,3 +316,5 @@ Day=159 Topic=DSA Snippet File=dsa-practice.md
 | Day 159 | 2026-08-13 | DSA | ✅ Done |
 Day=160 Topic=Interview Q&A File=interview-questions.md
 | Day 160 | 2026-08-14 | Interview Q&A | ✅ Done |
+Day=161 Topic=Java Core Tip File=java-tips.md
+| Day 161 | 2026-08-15 | Java Core | ✅ Done |
