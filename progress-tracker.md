@@ -322,3 +322,5 @@ Day=162 Topic=Spring Boot Note File=springboot-notes.md
 | Day 162 | 2026-08-16 | Spring Boot | ✅ Done |
 Day=163 Topic=DSA Snippet File=dsa-practice.md
 | Day 163 | 2026-08-17 | DSA | ✅ Done |
+Day=164 Topic=Interview Q&A File=interview-questions.md
+| Day 164 | 2026-08-18 | Interview Q&A | ✅ Done |
