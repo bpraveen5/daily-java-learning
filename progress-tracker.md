@@ -332,3 +332,5 @@ Day=167 Topic=DSA Snippet File=dsa-practice.md
 | Day 167 | 2026-08-21 | DSA | ✅ Done |
 Day=168 Topic=Interview Q&A File=interview-questions.md
 | Day 168 | 2026-08-22 | Interview Q&A | ✅ Done |
+Day=169 Topic=Java Core Tip File=java-tips.md
+| Day 169 | 2026-08-23 | Java Core | ✅ Done |
