@@ -356,3 +356,5 @@ Day=179 Topic=DSA Snippet File=dsa-practice.md
 | Day 179 | 2026-09-02 | DSA | ✅ Done |
 Day=180 Topic=Interview Q&A File=interview-questions.md
 | Day 180 | 2026-09-03 | Interview Q&A | ✅ Done |
+Day=181 Topic=Java Core Tip File=java-tips.md
+| Day 181 | 2026-09-04 | Java Core | ✅ Done |
